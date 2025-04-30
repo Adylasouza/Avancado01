@@ -1,5 +1,5 @@
 from Biblioteca import *
 #input("Digite o texto: ")
-texto= "o rato roeu a roupa do rei de Roma"
+texto= "o rato roeu a roupa do rei de Roraima"
 contVogais(texto)
 
