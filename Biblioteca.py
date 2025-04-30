@@ -38,5 +38,14 @@ def funcao(numero):
         print("Nf")
 
 def soma(numero1, numero2):
+    #se fosse uma tupla: def soma(*numero)
     soma = numero1+numero2
+    print(soma)
+
+def som (*a):
+    #somar mais de dois numeros em uma tupla
+    soma= 0
+    for x in range(len(a)):
+        soma+=a[x]
+
     print(soma)
