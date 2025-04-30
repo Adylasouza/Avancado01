@@ -24,3 +24,7 @@ def contVogais(texto):
         if texto[x]  == "a" or texto[x] == "e" or texto[x]=="i" or texto[x] =="o" or texto[x]=="u":
             contar=contar+1
     print(contar)
+
+def estoque(produto, quantidade, valorUnitario):
+    valorUnitario=quantidade*valorUnitario
+    return valorUnitario
