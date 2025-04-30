@@ -47,5 +47,15 @@ def som (*a):
     soma= 0
     for x in range(len(a)):
         soma+=a[x]
-
     print(soma)
+
+def txt (texto):
+    '''  se for contar letras e espaços em branco
+     cont =0
+    for x in range(len(texto)-1,-1,-1):
+                print(texto[x], end= " ")
+                if t[x!=" ":
+                    cont+=1
+    print(cont)'''
+    for x in range(len(texto)-1,-1,-1):
+        print(texto[x], end= " ")
