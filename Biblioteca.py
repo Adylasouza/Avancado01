@@ -28,3 +28,11 @@ def contVogais(texto):
 def estoque(produto, quantidade, valorUnitario):
     valorUnitario=quantidade*valorUnitario
     return valorUnitario
+
+def funcao(numero):
+    if numero==0:
+        print("Z")
+    elif numero>0:
+        print("P")
+    else:
+        print("N")
