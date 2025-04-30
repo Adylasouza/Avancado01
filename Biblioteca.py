@@ -35,4 +35,8 @@ def funcao(numero):
     elif numero>0:
         print("P")
     else:
-        print("N")
+        print("Nf")
+
+def soma(numero1, numero2):
+    soma = numero1+numero2
+    print(soma)
