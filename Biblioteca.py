@@ -59,3 +59,9 @@ def txt (texto):
     print(cont)'''
     for x in range(len(texto)-1,-1,-1):
         print(texto[x], end= " ")
+
+def list(n):
+    n=[" "]
+    novalista=[" "]
+    for x in range (len(n)):
+        if n[x]
